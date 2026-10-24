@@ -7,3 +7,4 @@ coverage/
 .env*
 !.env.example
 push.bat
+upload.bat
