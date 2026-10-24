@@ -138,11 +138,23 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     }
   });
 
+  // Helper to normalize image path for production compatibility
+  const sanitizeImagePath = (p: string) => (typeof p === 'string' ? p.replace(/^\/src\/assets\/images\//, '/images/') : p);
+
   // News
   const [news, setNews] = useState<NewsArticle[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.NEWS);
-      return saved ? JSON.parse(saved) : NEWS_ARTICLES;
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          return parsed.map((item: NewsArticle) => ({
+            ...item,
+            image: sanitizeImagePath(item.image)
+          }));
+        }
+      }
+      return NEWS_ARTICLES;
     } catch {
       return NEWS_ARTICLES;
     }
@@ -152,7 +164,16 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [gallery, setGallery] = useState<GalleryItem[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.GALLERY);
-      return saved ? JSON.parse(saved) : GALLERY_ITEMS;
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          return parsed.map((item: GalleryItem) => ({
+            ...item,
+            mediaUrl: sanitizeImagePath(item.mediaUrl)
+          }));
+        }
+      }
+      return GALLERY_ITEMS;
     } catch {
       return GALLERY_ITEMS;
     }

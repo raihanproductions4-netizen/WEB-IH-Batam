@@ -19,7 +19,7 @@ export const HeroSection: React.FC = () => {
       {/* Background Image with Measured Scrim for WCAG AA Contrast */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_school_campus_1792641892359.jpg"
+          src="/images/hero_school_campus_1792641892359.jpg"
           alt="Kampus SIT Insan Harapan Batam"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"

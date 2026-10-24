@@ -57,7 +57,7 @@ export const AdminPanel: React.FC = () => {
     author: 'Tim Humas SIT Insan Harapan',
     excerpt: '',
     contentParagraphs: '',
-    image: '/src/assets/images/hero_school_campus_1792641892359.jpg',
+    image: '/images/hero_school_campus_1792641892359.jpg',
     readTime: '3 menit baca'
   });
 
@@ -66,7 +66,7 @@ export const AdminPanel: React.FC = () => {
   const [newGallery, setNewGallery] = useState({
     title: '',
     category: 'Pembelajaran' as GalleryItem['category'],
-    mediaUrl: '/src/assets/images/sdit_nature_learning_1792641893015.jpg',
+    mediaUrl: '/images/sdit_nature_learning_1792641893015.jpg',
     date: 'Oktober 2026',
     description: ''
   });
@@ -143,7 +143,7 @@ export const AdminPanel: React.FC = () => {
       author: 'Tim Humas SIT Insan Harapan',
       excerpt: '',
       contentParagraphs: '',
-      image: '/src/assets/images/hero_school_campus_1792641892359.jpg',
+      image: '/images/hero_school_campus_1792641892359.jpg',
       readTime: '3 menit baca'
     });
   };
@@ -168,7 +168,7 @@ export const AdminPanel: React.FC = () => {
     setNewGallery({
       title: '',
       category: 'Pembelajaran',
-      mediaUrl: '/src/assets/images/sdit_nature_learning_1792641893015.jpg',
+      mediaUrl: '/images/sdit_nature_learning_1792641893015.jpg',
       date: 'Oktober 2026',
       description: ''
     });

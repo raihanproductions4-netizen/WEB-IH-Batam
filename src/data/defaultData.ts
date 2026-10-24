@@ -101,7 +101,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
       "Mandiri memakai sepatu, merapikan mainan, dan mencuci tangan sendiri",
       "Percaya diri bersosialisasi dan mengekspresikan imajinasi positif"
     ],
-    image: "/src/assets/images/rait_early_childhood_1792641892494.jpg",
+    image: "/images/rait_early_childhood_1792641892494.jpg",
     activities: [
       {
         id: "rait-act-1",
@@ -109,7 +109,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Kreativitas & Sentra",
         date: "Oktober 2026",
         description: "Santri cilik RAIT belajar menanam bibit sayur dan merangkai balok kayu edukatif untuk menstimulasi motorik halus dan rasa takjub pada ciptaan Allah.",
-        image: "/src/assets/images/rait_kegiatan_sentra.jpg",
+        image: "/images/rait_kegiatan_sentra.jpg",
         tag: "Sentra Alam"
       },
       {
@@ -118,7 +118,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Tahfiz & Ibadah",
         date: "September 2026",
         description: "Lantunan hafalan surat-surat pendek Juz Amma dan doa harian dengan metode gerak lagu yang gembira dan ramah anak usia dini.",
-        image: "/src/assets/images/rait_early_childhood_1792641892494.jpg",
+        image: "/images/rait_early_childhood_1792641892494.jpg",
         tag: "Tahfiz Balita"
       }
     ],
@@ -132,7 +132,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         level: "Tingkat Kota Batam",
         year: "2026",
         description: "Meraih nilai tertinggi kategori hafalan surat pendek Juz Amma tartil serta kerapian pewarnaan kaligrafi anak usia dini.",
-        image: "/src/assets/images/rait_prestasi_tahfidz.jpg",
+        image: "/images/rait_prestasi_tahfidz.jpg",
         badgeColor: "amber"
       },
       {
@@ -144,7 +144,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         level: "Tingkat Kota Batam",
         year: "2025",
         description: "Keberanian melafalkan doa harian dan adab islami di atas panggung di hadapan dewan juri.",
-        image: "/src/assets/images/rait_early_childhood_1792641892494.jpg",
+        image: "/images/rait_early_childhood_1792641892494.jpg",
         badgeColor: "emerald"
       }
     ]
@@ -198,7 +198,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
       "Kecakapan literasi membaca tinggi dan penalaran matematika pemecahan masalah",
       "Memiliki kepedulian lingkungan dan mampu bekerja sama dalam tim proyek"
     ],
-    image: "/src/assets/images/sdit_nature_learning_1792641893015.jpg",
+    image: "/images/sdit_nature_learning_1792641893015.jpg",
     activities: [
       {
         id: "sdit-act-1",
@@ -206,7 +206,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Alam & Lingkungan",
         date: "Oktober 2026",
         description: "Siswa kelas 4 dan 5 memanen langsung selada dan pokcoy segar hasil pembibitan mandiri di Kebun Hidroponik Sekolah Islam Terpadu.",
-        image: "/src/assets/images/sdit_kegiatan_panen.jpg",
+        image: "/images/sdit_kegiatan_panen.jpg",
         tag: "Nature School"
       },
       {
@@ -215,7 +215,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Kegiatan Belajar",
         date: "September 2026",
         description: "Praktik langsung klasifikasi tanaman botani dan uji kesuburan tanah dengan bimbingan guru sains di nature lab.",
-        image: "/src/assets/images/sdit_nature_learning_1792641893015.jpg",
+        image: "/images/sdit_nature_learning_1792641893015.jpg",
         tag: "Sains Terapan"
       },
       {
@@ -224,7 +224,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Tahfiz & Ibadah",
         date: "Agustus 2026",
         description: "Penyetoran hafalan Al-Qur'an mutqin santri SDIT di Masjid Baitul Quran dengan sanad bacaan tajwid tartil.",
-        image: "/src/assets/images/school_masjid_facility_1792641893431.jpg",
+        image: "/images/school_masjid_facility_1792641893431.jpg",
         tag: "Tahfiz Qur'an"
       }
     ],
@@ -238,7 +238,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         level: "Tingkat Kota Batam",
         year: "2026",
         description: "Memborong piala bergilir juara umum dan medali emas kompetisi sains terpadu serta uji hafalan Al-Qur'an 3 Juz.",
-        image: "/src/assets/images/sdit_prestasi_olimpiade.jpg",
+        image: "/images/sdit_prestasi_olimpiade.jpg",
         badgeColor: "amber"
       },
       {
@@ -250,7 +250,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         level: "Tingkat Kota Batam",
         year: "2025",
         description: "Inovasi robot otonom pelacak garis tercepat dan paling stabil menggunakan mikrokontroler ramah anak.",
-        image: "/src/assets/images/sdit_nature_learning_1792641893015.jpg",
+        image: "/images/sdit_nature_learning_1792641893015.jpg",
         badgeColor: "sky"
       }
     ]
@@ -305,7 +305,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
       "Kecakapan literasi teknologi, riset ilmiah remaja, dan bahasa asing aktif",
       "Jiwa mandiri, berani mengambil keputusan etis, dan kepedulian sosial tinggi"
     ],
-    image: "/src/assets/images/smpit_digital_leadership_1792641894305.jpg",
+    image: "/images/smpit_digital_leadership_1792641894305.jpg",
     activities: [
       {
         id: "smpit-act-1",
@@ -313,7 +313,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Teknologi & Digital",
         date: "Oktober 2026",
         description: "Santri SA SMPIT merakit robot otonom dan memprogram sistem sensor dengan laptop di laboratorium komputer sekolah.",
-        image: "/src/assets/images/smpit_kegiatan_robotika.jpg",
+        image: "/images/smpit_kegiatan_robotika.jpg",
         tag: "STEM Lab"
       },
       {
@@ -322,7 +322,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Kepemimpinan",
         date: "September 2026",
         description: "Pelatihan survival di alam terbuka, bivak mandiri, navigasi medan, dan pembinaan karakter kesatria remaja muslim.",
-        image: "/src/assets/images/smpit_digital_leadership_1792641894305.jpg",
+        image: "/images/smpit_digital_leadership_1792641894305.jpg",
         tag: "Sekolah Alam"
       },
       {
@@ -331,7 +331,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         category: "Tahfiz & Ibadah",
         date: "Agustus 2026",
         description: "Ujian terbuka hafalan santri di hadapan dewan asatidz bersanad qiraah dan wali santri di Masjid Baitul Quran.",
-        image: "/src/assets/images/school_masjid_facility_1792641893431.jpg",
+        image: "/images/school_masjid_facility_1792641893431.jpg",
         tag: "Tahfiz Mutqin"
       }
     ],
@@ -345,7 +345,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         level: "Tingkat Provinsi Kepulauan Riau",
         year: "2026",
         description: "Berhasil meraih piala kejuaraan provinsi untuk kategori robotik otomasi dan tasmi' Al-Qur'an 10 Juz tanpa salah.",
-        image: "/src/assets/images/smpit_prestasi_juara.jpg",
+        image: "/images/smpit_prestasi_juara.jpg",
         badgeColor: "amber"
       },
       {
@@ -357,7 +357,7 @@ export const EDUCATIONAL_UNITS: EducationalUnit[] = [
         level: "Tingkat Regional",
         year: "2025",
         description: "Pidato bertema 'Kepemimpinan Pemuda Muslim Menyongsong Peradaban Digital' dengan retorika fasih dan percaya diri.",
-        image: "/src/assets/images/smpit_digital_leadership_1792641894305.jpg",
+        image: "/images/smpit_digital_leadership_1792641894305.jpg",
         badgeColor: "emerald"
       }
     ]
@@ -463,7 +463,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
       "'Al-Qur'an bukan sekadar hafalan lisan, melainkan kompas hidup yang membimbing akhlak ananda menjadi generasi berkarakter di tengah derasnya arus digitalisasi saat ini,' tutur beliau dalam sambutannya.",
       "Acara diakhiri dengan penyerahan sertifikat syahadah tahfiz, doa bersama untuk kemaslahatan bangsa, serta pameran karya kaligrafi santri binaan sekolah."
     ],
-    image: "/src/assets/images/school_masjid_facility_1792641893431.jpg",
+    image: "/images/school_masjid_facility_1792641893431.jpg",
     readTime: "3 menit baca",
     featured: true
   },
@@ -480,7 +480,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
       "Kegiatan dilanjutkan dengan mini-ekspedisi observasi biologi ke kawasan konservasi mangrove di pesisir Batam. Siswa dibekali kaca pembesar, modul catatan lapangan, dan bimbingan guru sains.",
       "Kepala Sekolah SDIT menegaskan bahwa interaksi nyata dengan tanah, air, dan tanaman membangkitkan rasa syukur atas ciptaan Allah dan memupuk kepedulian terhadap kelestarian lingkungan sejak masa kanak-kanak."
     ],
-    image: "/src/assets/images/sdit_nature_learning_1792641893015.jpg",
+    image: "/images/sdit_nature_learning_1792641893015.jpg",
     readTime: "4 menit baca",
     featured: false
   },
@@ -497,7 +497,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
       "Robot rancangan mereka memanfaatkan sensor ultrasonik dan mikroprosesor sederhana untuk mendeteksi serta mengumpulkan botol plastik di permukaan air dangkal.",
       "Keberhasilan ini menjadi bukti nyata bahwa sekolah Islam Terpadu mampu bersaing secara unggul dalam bidang sains dan teknologi modern tanpa mengesampingkan pendidikan ruhiyah keislaman."
     ],
-    image: "/src/assets/images/smpit_digital_leadership_1792641894305.jpg",
+    image: "/images/smpit_digital_leadership_1792641894305.jpg",
     readTime: "3 menit baca",
     featured: false
   },
@@ -514,7 +514,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
       "Mengingat komitmen sekolah dalam menjaga rasio ideal guru dan santri demi efektivitas pembinaan akhlak serta hafalan Al-Qur'an, kuota rombongan belajar setiap unit dibatasi secara ketat.",
       "Para calon orang tua murid diimbau untuk segera mengisi formulir online dan berkonsultasi dengan tim PPDB melalui kanal WhatsApp resmi sekolah sebelum kuota terpenuhi."
     ],
-    image: "/src/assets/images/hero_school_campus_1792641892359.jpg",
+    image: "/images/hero_school_campus_1792641892359.jpg",
     readTime: "2 menit baca",
     featured: false
   }
@@ -526,7 +526,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Kawasan Kampus Hijau & Lingkungan Belajar Terbuka",
     category: "Alam & Lingkungan",
     type: "photo",
-    mediaUrl: "/src/assets/images/hero_school_campus_1792641892359.jpg",
+    mediaUrl: "/images/hero_school_campus_1792641892359.jpg",
     date: "Oktober 2026",
     description: "Suasana pagi hari di kawasan kampus terpadu Insan Harapan Batam dengan pepohonan tropis dan jalur pedestrian ramah anak."
   },
@@ -535,7 +535,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Sentra Bermain & Pembiasaan Hijaiyah RAIT Insan Harapan",
     category: "Pembelajaran",
     type: "photo",
-    mediaUrl: "/src/assets/images/rait_early_childhood_1792641892494.jpg",
+    mediaUrl: "/images/rait_early_childhood_1792641892494.jpg",
     date: "September 2026",
     description: "Ananda usia dini gembira belajar menyusun huruf Arab dan melatih motorik halus didampingi guru sentra."
   },
@@ -544,7 +544,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Outdoor Nature Lab: Siswa SDIT Belajar Botani & Bercocok Tanam",
     category: "Alam & Lingkungan",
     type: "photo",
-    mediaUrl: "/src/assets/images/sdit_nature_learning_1792641893015.jpg",
+    mediaUrl: "/images/sdit_nature_learning_1792641893015.jpg",
     date: "September 2026",
     description: "Siswa sekolah dasar mengenali jenis-jenis daun, tanah subur, dan merawat tanaman di kebun sains sekolah."
   },
@@ -553,7 +553,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Praktikum Laboratorium Robotika & STEM Siswa SMPIT",
     category: "Pembelajaran",
     type: "photo",
-    mediaUrl: "/src/assets/images/smpit_digital_leadership_1792641894305.jpg",
+    mediaUrl: "/images/smpit_digital_leadership_1792641894305.jpg",
     date: "Agustus 2026",
     description: "Kolaborasi santri SMPIT dalam merakit perangkat robotik dan menguji baris kode visual program."
   },
@@ -562,7 +562,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Ketenangan Ruang Tahfiz & Shalat Berjamaah Masjid Sekolah",
     category: "Tahfiz & Ibadah",
     type: "photo",
-    mediaUrl: "/src/assets/images/school_masjid_facility_1792641893431.jpg",
+    mediaUrl: "/images/school_masjid_facility_1792641893431.jpg",
     date: "Oktober 2026",
     description: "Kegiatan halaqah Al-Qur'an sore hari santri dengan pencahayaan alami yang menenangkan jiwa."
   }
@@ -574,7 +574,7 @@ export const SCHOOL_FACILITIES: Facility[] = [
     name: "Masjid & Aula Tahfiz Baitul Quran",
     category: "Ibadah & Ruhiyah",
     description: "Pusat kegiatan ibadah harian berkapasitas 600 jamaah dengan tata udara sejuk, mihrab kayu alami, dan pemandangan taman tropis untuk shalat berjamaah, tasmi' akbar, dan halaqah tahfiz.",
-    image: "/src/assets/images/school_masjid_facility_1792641893431.jpg",
+    image: "/images/school_masjid_facility_1792641893431.jpg",
     features: ["Kapasitas 600 jamaah", "Sound system akustik jernih", "Area wudhu terpisah & ramah anak", "Ruang halaqah privat"]
   },
   {
@@ -582,7 +582,7 @@ export const SCHOOL_FACILITIES: Facility[] = [
     name: "Laboratorium STEM & Robotika Digital",
     category: "Teknologi & Sains",
     description: "Fasilitas komputer modern terkoneksi jaringan serat optik kecepatan tinggi, modul mikrokontroler Arduino/LEGO education, dan smartboard interaktif.",
-    image: "/src/assets/images/smpit_digital_leadership_1792641894305.jpg",
+    image: "/images/smpit_digital_leadership_1792641894305.jpg",
     features: ["36 unit PC spesifikasi modern", "Modul praktikum robotika", "Smartboard multimedia", "Filter internet sehat keluarga"]
   },
   {
@@ -590,7 +590,7 @@ export const SCHOOL_FACILITIES: Facility[] = [
     name: "Kebun Edukasi & Nature Learning Lab",
     category: "Alam & Lingkungan",
     description: "Area hijau seluas 1.200 m² yang memuat kebun hidroponik, bedengan sayur organik, kolam budidaya ikan air tawar, dan rumah kompos untuk riset hayati siswa.",
-    image: "/src/assets/images/sdit_nature_learning_1792641893015.jpg",
+    image: "/images/sdit_nature_learning_1792641893015.jpg",
     features: ["Greenhouse hidroponik", "Bedengan tanaman organik", "Pojok kompos daur ulang", "Kolam bioflok edukasi"]
   },
   {
@@ -598,7 +598,7 @@ export const SCHOOL_FACILITIES: Facility[] = [
     name: "Ruang Sentra Bermain Ramah Anak RAIT",
     category: "Pendidikan Dini",
     description: "Ruang kelas bertema terbuka yang bebas dari sudut tajam, dilengkapi balok kayu edukatif, buku bergambar islami, dan peraga sensorik montessori.",
-    image: "/src/assets/images/rait_early_childhood_1792641892494.jpg",
+    image: "/images/rait_early_childhood_1792641892494.jpg",
     features: ["Lantai empuk berstandar keselamatan", "Peraga Montessori & Balok Sentra", "Akses langsung ke taman rumput", "Rasio pendamping guru tinggi"]
   },
   {
@@ -606,7 +606,7 @@ export const SCHOOL_FACILITIES: Facility[] = [
     name: "Kampus Terpadu & Lapangan Olahraga Serbaguna",
     category: "Olahraga & Fasilitas Umum",
     description: "Lapangan serbaguna untuk olahraga futsal, basket, bulutangkis, memanah (archery), serta upacara bendera dan kegiatan kepanduan Pramuka SIT.",
-    image: "/src/assets/images/hero_school_campus_1792641892359.jpg",
+    image: "/images/hero_school_campus_1792641892359.jpg",
     features: ["Lapangan standar multi-sport", "Lintasan memanah sunnah", "Kantin sehat bebas MSG & pewarna", "Sistem keamanan CCTV 24 Jam"]
   }
 ];
